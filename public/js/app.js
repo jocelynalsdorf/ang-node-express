@@ -1,5 +1,5 @@
 //all angular code
-angular.module('routerApp', ['routerRoutes'])
+angular.module('routerApp', ['routerRoutes', 'ngAnimate'])
 
 //create the controllers, first main controller for whole routerApp
 .controller('mainController', function(){

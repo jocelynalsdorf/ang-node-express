@@ -20,7 +20,7 @@ angular.module('routerRoutes', ['ngRoute'])
   //contact route
   .when('/contact', {
     templateUrl: 'views/pages/contact.html',
-    controller 'contactController',
+    controller: 'contactController',
     controllerAs: 'contact'
   });
 
