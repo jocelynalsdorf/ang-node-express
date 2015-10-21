@@ -1,6 +1,5 @@
 angular.module('routerRoutes', ['ngRoute'])
 
-
 //configure routes
 .config(function($routeProvider, $locationProvider){
   $routeProvider
@@ -17,6 +16,7 @@ angular.module('routerRoutes', ['ngRoute'])
     controller: 'aboutController',
     controllerAs: 'about'
   })
+  
   //contact route
   .when('/contact', {
     templateUrl: 'views/pages/contact.html',
